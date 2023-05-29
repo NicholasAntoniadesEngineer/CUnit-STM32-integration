@@ -8,6 +8,6 @@ To add a pre build command for CUnit testing to the compiler of STM32H7 in STMCu
 4. Select the "Build Steps" tab.
 5. Click on the "Add" button to add a new build step.
 6. In the "Pre-build steps" field, enter the command for running your CUnit tests. This command may vary depending on your project structure and CUnit setup. Here's a sample command assuming you have a separate directory for your unit tests:
-        cd ~/Documents/CUnit_testing/ && ./build.sh 
+        ccd ~/Documents/CUnit_test/ && ./build.sh 
 7. Click "Apply and Close" to save the changes and close the Properties window.
 8. Build your project by selecting "Build Project" from the "Project" menu or pressing Ctrl+B.

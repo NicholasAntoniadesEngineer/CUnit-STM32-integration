@@ -15,7 +15,7 @@ void testMergeArrays() {
     int merged[size1 + size2];
     mergeArrays(arr1, size1, arr2, size2, merged);
 
-    int expected[] = {1, 1, 3, 4, 5, 6, 7, 8, 9, 10};
+    int expected[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
     for (int i = 0; i < size1 + size2; i++) {
         CU_ASSERT_EQUAL_FATAL(merged[i], expected[i]);
